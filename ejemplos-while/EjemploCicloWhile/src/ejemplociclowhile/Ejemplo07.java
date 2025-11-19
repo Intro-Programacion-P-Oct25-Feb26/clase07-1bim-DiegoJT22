@@ -31,6 +31,8 @@ public class Ejemplo07 {
         int contador = 0;
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
+        /*while (bandera == true) es lo mismo que while (bandera)
+        */
         while (bandera) {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
@@ -50,3 +52,7 @@ public class Ejemplo07 {
 
     }
 }
+/*
+El while (bandera) nos va a ayudar a cerrar el ciclo cuando sea falsa y el 
+contador me va a servir para saber cuando veces hago el proceso
+*/
