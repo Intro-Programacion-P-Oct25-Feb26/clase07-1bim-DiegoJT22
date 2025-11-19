@@ -42,6 +42,8 @@ public class Ejemplo05 {
         }
         
         promedio_final = suma_total/limite;
+        //Para calcular siempre es mejor hacerlo fuera del ciclo
+        
         System.out.printf("El promedio final es %f\n", promedio_final);
         
     }
