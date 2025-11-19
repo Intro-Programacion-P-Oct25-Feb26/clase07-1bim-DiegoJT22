@@ -27,7 +27,7 @@ public class Ejemplo10 {
         
         System.out.println("Ingrese el número de tabla a generar");
         tabla = entrada.nextInt();
-        
+        //concadenacion de cadenas con Strin format
         String cadena = ""; // cadena acumulador
         cadena = String.format("%sTabla de multiplicar\n", cadena);
         
