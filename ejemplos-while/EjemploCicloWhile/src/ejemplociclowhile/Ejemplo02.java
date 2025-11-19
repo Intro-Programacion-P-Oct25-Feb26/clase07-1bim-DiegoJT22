@@ -18,10 +18,10 @@ public class Ejemplo02 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        int limite;
+        int limite ;
         int contador = 1;
         System.out.println("Ingrese el Límite");
-        limite = entrada.nextInt(); 
+        limite = entrada.nextInt(); //6
         while (contador <= limite){
             
             if (contador%2!=0) {
@@ -34,3 +34,9 @@ public class Ejemplo02 {
         
     }
 }
+/*
+El programa sirve para hacer que el usuario ingrese un numero y que sepa los 
+numeros primos que van antes de llevar al numero que se asigna como limite
+
+
+*/
